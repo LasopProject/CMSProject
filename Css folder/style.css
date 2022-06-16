@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV PAGE */
+ 
+.head{
+    display: flex;
+    background-color: rgb(7, 7, 26);
+    padding: 1px;
+    border-bottom: solid;
+    border-color: rgb(128, 123, 123);
+    border-width: 1px;
+    max-width: 100%;
+   
+    
+   
+}
+.logo{
+    border: solid;
+    height: 25px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(31, 31, 72);
+    border-style: none;
+    border-radius: 5px;
+    color: rgb(25, 67, 208);
+    margin-top: 13px;
+    margin-left: 7px;
+}
+.logo-name{
+    margin-left: 5px;
+    margin-top: 16px;
+    font-size: 15px;
+    color: rgb(213, 206, 206);
+    font-family: sans-serif;
+}
+.icon{
+    margin: 20px 2px;
+    float: left;
+    color:rgb(213, 206, 206);
+  margin-left: 65rem;
+ 
+}
+.p-img{
+    border: solid;
+    padding: 15px;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(213, 206, 206);
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+    
+
+}
+.info{
+    color:rgb(213, 206, 206);
+    font-family: sans-serif;
+    margin: 10px;
+    font-size: 12px;
+}
+
+
+/* BODY PAGE / NAV-ROW */
+
+    
+
+.home-key{
+    display: flex;
+    padding: 20px 10px;
+    background-color:rgb(7, 7, 26);
+    border-bottom: solid;
+    border-color:rgb(128, 123, 123);
+    border-width: 1px;
+
+}
+
+.home-icon{
+    border: solid;
+    padding: 10px;
+    width: 40px;
+    color: rgb(71, 123, 219);
+    border-radius: 10px;
+    background-color: rgb(7, 7, 26);
+    border-style: none;
+}
+.homekey-text{
+    font-size: 15px;
+    margin-left:5px;
+    margin-top: 5px;
+    color: rgb(213, 206, 206);
+    font-family: sans-serif;
+}
+.homekey-text .verified{
+    color: blue;
+}
+
+/* ICON LIST */
+.bg{background-color:    rgb(7, 7, 26);
+    color: rgb(213, 206, 206);
+   padding: 20px 10px 62rem 20px;
+   max-width: 100%;
+
+}
+
+
+
+.dashbord-not1{
+    padding: 20px;
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.dashbord-not1:hover{
+    background-color: rgb(59, 89, 177);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.dashbord-not2{
+    padding: 10px;
+    display: flex;
+    border: solid;
+    background-color: rgb(2, 2, 41);
+    width: 100%;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.dashbord-not2:hover{
+    background-color: rgb(59, 89, 177);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.dashbord-not3{
+    padding: 20px;
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+.dashbord-not3:hover{
+    background-color: rgb(59, 89, 177);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.dashbord-not4{
+    display: flex;
+    padding: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+.dashbord-not4:hover{
+    background-color: rgb(59, 89, 177);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.dashbord-not5{
+    padding: 20px;
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.dashbord-not5:hover{
+    background-color: rgb(59, 89, 177);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.dashbord-not6{
+    padding: 20px;
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.dashbord-not6:hover{
+    background-color: rgb(59, 89, 177);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.dashbord-not7{
+    padding: 20px;
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.dashbord-not7:hover{
+    background-color: rgb(59, 89, 177);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.dashbord-not8{
+    padding: 20px;
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.dashbord-not8:hover{
+    background-color: rgb(59, 89, 177);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.txt{padding-left: 5px;
+}
+
+
+/* DASH BOARD PAGE */
+.big-container{
+    display: flex;
+}
+
+
+.dashboard-page{
+    background-color: rgb(20, 26, 39);
+    padding: 20px;
+    color: rgb(213, 206, 206);
+   
+
+}
+.pages-con{
+    display: flex;
+    
+   
+}
+
+
+/* VISITORS ANALYSTIC PAGE */
+
+
+
+
+
+.vis-analys{
+    display: flex;
+    border: solid;
+    padding: 10px 130px 10px 20px ;
+    background-color:   rgb(7, 7, 26);
+    margin-top: 15px;
+    border-style: none;
+    border-radius: 10px;
+    
+ 
+
+}
+.vis-txt{
+    font-size: 15px;
+
+}
+
+
+
+.inputtt{
+    padding: 5px 15px;
+   background-color: rgb(2, 2, 41);
+   border-color: rgb(70, 112, 228);
+   color: rgb(70, 112, 228);
+   border-radius: 10px;
+   margin: 15px 5px 1px 100px;
+}
+
+
+/* SUMMARY PAGE */
+
+.summary-page{
+    border: solid;
+    padding: 20px 2rem 40px 30px;
+    width: 100%;
+    height: 100%;
+    color: rgb(213, 206, 206);
+    background-color:   rgb(7, 7, 26);
+    margin-top: 15px;
+    border-style: none;
+    border-radius: 10px;
+    margin: 15px 27px 50px 20px;  
+}
+.sum1{
+    padding-bottom: 20px;
+   margin-top: 20px;
+}
+
+
+
+
+
+
+/* TABLE PAGE */
+.table-page{
+    width: 100%;
+  font-size: 25px;
+  margin-top: 10px;
+  color: rgb(213, 206, 206);
+}
+.table-head{
+    padding: 10px;
+}
+.table-data{
+    padding: 10px;
+    
+}
+.table-hName{padding: 10px;}
+
+.data-num{
+   padding:5px 3px 1px 30px;
+   
+
+}
+
+
+
+/* top post last container */
+.last-page{
+    display: flex;
+    
+}
+
+
+
+
+.last-section{
+    border: solid;
+    padding: 10px 30px 50px 1px;
+    border-radius: 10px;
+   margin-top: 15px;
+   border-style: none;
+    background-color:  rgb(7, 7, 26);
+}
+.top-heading{
+    display: flex;
+  
+
+}
+
+
+
+/* top-list-page */
+.head1{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: rgb(213, 206, 206);
+}
+
+.header2{
+   margin-left: 450px;
+   margin-top: 10px;
+   border: solid;
+   border-radius: 5px;
+   padding: 2px 15px 2px 15px;
+   border-color: rgb(25, 89, 185);
+   color:rgb(25, 89, 185) ;
+}
+
+.head-line{
+    margin-top: 15px;
+    border-color: rgb(86, 86, 84);
+    margin-left: 40px;
+}
+
+/* next page */
+.top-heading1{
+   display: flex;
+}
+
+
+.head-line1{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(199, 194, 194);
+  
+}
+.date-line{
+    font-size: 12px;
+    margin-top: 7px;
+    color: rgb(213, 206, 206);
+}
+
+
+
+/* LINE-CSS-PAGE */
+.line-header2{
+    margin-left: 490px;
+   margin-top: 10px;
+}
+.line-header3{
+    margin-left: 360px;
+   margin-top: 10px;
+}
+.line-header4{
+    margin-left: 385px;
+   margin-top: 10px;
+}
+.line-header5{
+    margin-left: 407px;
+   margin-top: 10px;
+}
+.line-header6{
+    margin-left: 380px;
+   margin-top: 10px;
+}
+.line-header7{
+    margin-left: 395px;
+   margin-top: 10px;
+}
+.line-header8{
+    margin-left: 370px;
+   margin-top: 10px;
+}
+.line-header9{
+    margin-left: 340px;
+   margin-top: 10px;
+}
+.line-header10{
+    margin-left: 330px;
+   margin-top: 10px;
+}
+.line-header11{
+    margin-left: 220px;
+   margin-top: 10px;
+}
+
+
+
+/* DEVICES-CARD-PAGE */
+
+.first-card{
+    border: solid;
+    padding: 5px 30px 50px 10px;
+    background-color:rgb(7, 7, 26) ;
+   border-style: none;
+   border-radius: 10px;
+   margin-left: 20px;
+  
+}
+
+.devices-txt{
+    font-size: 23px;
+   margin-top: 20px;
+   margin-left: 20px;
+   font-family: sans-serif;
+}
+
+.line1{
+    margin-top: 15px;
+    border-color: rgb(86, 86, 84);
+}
+
+
+.dekstop-per{
+    display: flex;
+    margin-top: 50px;
+}
+
+.dekstp-txt{
+    margin-left: 10px;
+}
+
+
+.percentage1{
+    margin-left: 350px;
+}
+
+.per-rate{
+    border-color: rgb(17, 57, 186);
+   height: 5px;
+   background-color: rgb(17, 57, 186);
+}
+
+
+/* SECOND-CARD-PAGE */
+.second-card{
+    border: solid;
+    padding: 5px 30px 50px 10px;
+    background-color:rgb(7, 7, 26) ;
+   border-style: none;
+   border-radius: 10px;
+   margin-left: 20px;
+   margin-top: 20px;
+  
+}
+
+
+/* THIRD-CARD-PAGE */
+.third-card{
+    border: solid;
+    padding: 5px 30px 50px 10px;
+    background-color:rgb(7, 7, 26) ;
+   border-style: none;
+   border-radius: 10px;
+   margin-left: 20px;
+   margin-top: 20px;
+  
+}

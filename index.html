@@ -48,30 +48,44 @@
 
         <div class="vis-analys">
   <div class="vis-analys"><h6 class="vis-txt">VisitorAnalystics</h6></div>
-       <div class="drop-list"> <input class="inputtt" type="button" value="This Week"></div>
-       <table class="table-data">
-        <tr class="table-h">
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <td>1000</td>
-        </tr>
-        <tr>
-            <td>800</td>
-        </tr>
-    </table>
-        </div>
+       <div class="drop-list"> 
+       <select name="" id="Days-of-week">
+        <option value="This week">This week</option>
+        <option value="Sunday">Sunday</option>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+       </select>
+       
+
+        <!-- Table Analystics chart -->
+
+<!-- first chart line -->
+      <div class="Chartcontainer">
+
+      
+    <div class="firstChartCon">
+        <div class="FirstChart1">100</div>
+        
+        <div class="FirstChart2"> </div>
+    </div>
+
+</div>
+</div>
+    
+    
+
+
+</div>
         
 
 
 
 
-
+<!-- Summary card page -->
 
         <div class="summary-page"><h2 class="sum1">Summary </h2>
             <hr>
@@ -114,11 +128,28 @@
 
     <div class="top-heading">
         <div class="head1">
-            <h3 class="top-header"> Top post</h3>
+            <h3 class="top-header">TopPost</h3>
         </div>
         
        <div class="header2">
-        <p class="p-cal"> Month</p>
+        <p class="p-cal"> 
+            <select name="Calender" id="Calender">
+                <option value="Month">Month</option>
+                <option value="Month">January</option>
+                <option value="Month">Febuary</option>
+                <option value="Month">March</option>
+                <option value="Month">April</option>
+                <option value="Month">May</option>
+                <option value="Month">June</option>
+                <option value="Month">July</option>
+                <option value="Month">August</option>
+                <option value="Month">September</option>
+                <option value="Month">October</option>
+                <option value="Month">November</option>
+                <option value="Month">December</option>
+            </select>
+
+        </p>
        </div>
         
     </div>
@@ -284,8 +315,13 @@
 </section>
 
 <section class="device-section"> 
-<div class="first-card">
+
+
+<!-- first card container -->
+
+<div class="first-card1">
     <div class="device-con">
+        <div class="devices-container"></div>
         <h4 class="devices-txt">Devices</h4>
     </div>
     <hr class="line1">
@@ -300,7 +336,16 @@
         </div>
         
     </div>
-    <hr class="per-rate">
+
+    <!-- first-line -->
+    <div class="destop-container">
+        <div class="destop-per1">
+
+        </div>
+        <div class="destop-per2">
+
+        </div>
+    </div>
 
     <!-- second-line -->
 
@@ -314,8 +359,14 @@
         </div>
         
     </div>
-    <hr class="per-rate">
+    <div class="mobile-con">
+        <div class="mobile-per1">
 
+        </div>
+        <div class="mobile-per2">
+
+        </div>
+    </div>
     <!-- third-line -->
 
     <div class="dekstop-per">
@@ -328,15 +379,22 @@
         </div>
         
     </div>
-    <hr class="per-rate">
+    <div class="tablet-con">
+        <div class="tablet-per1">
 
+        </div>
+        <div class="tablet-per2">
+
+        </div>
+
+        </div>
 
 </div>
 
 
 
 <!-- second-card -->
-<div class="second-card">
+<div class="second-card2">
     <div class="device-con">
         <h4 class="devices-txt">Browser</h4>
     </div>
@@ -352,7 +410,14 @@
         </div>
         
     </div>
-    <hr class="per-rate">
+    <div class="chrome-con">
+        <div class="chrome-per1">
+
+        </div>
+        <div class="chrome-per2">
+
+        </div>
+    </div>
 
     <!-- second-line -->
 
@@ -366,7 +431,14 @@
         </div>
         
     </div>
-    <hr class="per-rate">
+    <div class="mozilla-con">
+        <div class="mozilla-per1">
+
+        </div>
+        <div class="mozilla-per2">
+
+        </div>
+    </div>
 
     <!-- third-line -->
 
@@ -380,7 +452,16 @@
         </div>
         
     </div>
-    <hr class="per-rate">
+    <div class="opera-con">
+        <div class="opera-per1">
+
+        </div>
+        <div class="opera-per2">
+
+        </div>
+    </div>
+
+
      <!-- forth-line -->
 
      <div class="dekstop-per">
@@ -393,7 +474,15 @@
         </div>
         
     </div>
-    <hr class="per-rate">
+    <div class="othersCon">
+        <div class="others-per1">
+
+        </div>
+        <div class="others-per2">
+
+        </div>
+
+    </div>
 
 </div>
 
@@ -415,7 +504,14 @@
         </div>
         
     </div>
-    <hr class="per-rate">
+    <div class="windowCon">
+        <div class="window-per1">
+
+        </div>
+        <div class="window-per2">
+
+        </div>
+    </div>
 
     <!-- second-line -->
 
@@ -429,7 +525,14 @@
         </div>
         
     </div>
-    <hr class="per-rate">
+    <div class="ios-con">
+        <div class="ios-per1">
+
+        </div>
+        <div class="ios-per2">
+
+        </div>
+    </div>
 
     <!-- third-line -->
 
@@ -443,7 +546,15 @@
         </div>
         
     </div>
-    <hr class="per-rate">
+    <div class="linuxCon">
+        <div class="linux-per1">
+
+        </div>
+        <div class="linux-per2">
+
+        </div>
+
+    </div>
 
 
 
